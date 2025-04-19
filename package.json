@@ -1,13 +1,13 @@
 {
   "name": "my-node-app",
   "version": "1.0.0",
-  "description": "My npm package>>AWS CodeArtifact mein jayega",
+  "description": "My npm package >> AWS CodeArtifact mein jayega",
   "main": "app/server.js",
-  "scripts": {npn
+  "scripts": {
     "start": "node app/server.js"
   },
   "author": "DevOps Team",
-  "license": "ISC"
+  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
   }
