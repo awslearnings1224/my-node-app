@@ -12,6 +12,10 @@ phases:
   build:
     commands:
       - echo Build started...
+      - echo Creating package...
+      - npm pack
+      - echo Publishing to CodeArtifact...
+      - npm publish
   post_build:
     commands:
       - echo Build completed
