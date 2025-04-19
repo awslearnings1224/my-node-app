@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My npm package>>AWS CodeArtifact mein jayega",
   "main": "app/server.js",
-  "scripts": {
+  "scripts": {npn
     "start": "node app/server.js"
   },
   "author": "DevOps Team",
