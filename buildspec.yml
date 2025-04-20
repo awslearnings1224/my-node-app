@@ -14,11 +14,15 @@ phases:
       - echo Build started...
       - echo Creating package...
       - npm pack
+      - pwd
+      - ls
       - echo Publishing to CodeArtifact...
       - npm publish
   post_build:
     commands:
       - echo Build completed
+      - ls
+      - pwd
 artifacts:
   files:
     - '**/*'
