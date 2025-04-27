@@ -6,7 +6,7 @@ phases:
       nodejs: 14
     commands:
       - echo Logging in to CodeArtifact...
-      - aws codeartifact login --tool npm --domain mydomain --domain-owner 084828600220 --repository mynpmrepo
+      - aws codeartifact login --tool npm --domain mydomain --domain-owner 481716204214 --repository mynpmrepo
       - echo Installing dependencies...
       - npm install
   build:
