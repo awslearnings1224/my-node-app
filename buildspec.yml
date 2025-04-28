@@ -16,7 +16,7 @@ phases:
       - npm pack
       - pwd
       - ls
-      - echo Publishing to CodeArtifact...
+      - echo Publishing to CodeArtifact....
       - npm version patch  # <-- ye auto version bump karega
       - npm publish
   post_build:
