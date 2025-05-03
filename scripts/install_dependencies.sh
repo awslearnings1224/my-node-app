@@ -1,3 +1,5 @@
 #!/bin/bash
 cd /home/ec2-user/my-node-app
-sudo yum install npm -y
+sudo npm install
+# -g npm@latest
+#sudo npm install -g npm@latest
