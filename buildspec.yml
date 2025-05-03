@@ -9,6 +9,10 @@ phases:
       - aws codeartifact login --tool npm --domain mydomain --domain-owner 481716204214 --repository mynpmrepo
       - echo Installing dependencies...
       - npm install
+  pre_build:
+    commands:
+      - echo Running tests...
+      - npm test  # <-- Yahan test command chalegi
   build:
     commands:
       - echo Build started...
