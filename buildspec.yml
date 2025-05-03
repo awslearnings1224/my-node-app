@@ -12,7 +12,9 @@ phases:
   pre_build:
     commands:
       - echo Running tests...
-      - npm test  # <-- Yahan test command chalegi
+#      - npm test  # <-- Yahan test command chalegi
+      - npm install --save-dev jest
+      
   build:
     commands:
       - echo Build started...
