@@ -1,6 +1,6 @@
 {
   "name": "my-node-app",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "My npm package >> AWS CodeArtifact mein jayega-1",
   "main": "app/server.js",
   "scripts": {
