@@ -17,6 +17,6 @@ hooks:
       timeout: 300
 #      runas: ec2-user
 
-    - location: app/server.js
-      timeout: 300
+#    - location: app/server.js
+#      timeout: 300
 #      runas: ec2-user
